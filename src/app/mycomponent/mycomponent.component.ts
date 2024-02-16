@@ -12,7 +12,7 @@ export class MycomponentComponent {
     this.isVisible = !this.isVisible;
   }
   selectedOption: string = ""
-  myText: string = "om"
+  myText: string = "default"
   name : string ="om"
   friendslist = [
     {
