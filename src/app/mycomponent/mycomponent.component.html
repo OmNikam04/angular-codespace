@@ -1,0 +1,20 @@
+<p>mycomponent works! {{name}}</p>
+<!-- select control -->
+<select *ngIf="isVisible" [(ngModel)]="selectedOption">
+    <option *ngFor="let o of friendslist">
+       {{o.name}} is of age {{ o.age }}
+    </option>
+ </select>
+<p *ngIf="isVisible" >Selected option: {{ selectedOption }}</p>
+
+<button (click)="hideList()">
+    Click to Hide List
+</button>
+
+<br/>
+
+<textarea [(ngModel)]="myText">
+    
+</textarea>
+
+<p>{{myText}}</p>
