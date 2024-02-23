@@ -1,0 +1,51 @@
+// Variables for customization
+$primary-color: #fff8d7;  // Adjust as needed
+$accent-color: #f57c00;   // Adjust as needed
+$text-color: #222;
+$font-family: sans-serif;
+
+:host {
+  display: block;
+  padding: 1rem;
+  background-color: $primary-color;
+  color: $text-color;
+  font-family: $font-family;
+}
+
+// Personalize with your preferences:
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+select {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+//   @include box-shadow(0 2px 5px rgba(0, 0, 0, 0.1)); // Add subtle shadow
+}
+
+button {
+  background-color: $accent-color;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+//   @include transition(all 0.2s ease-in-out); // Add smooth hover effect
+
+  &:hover {
+    background-color: lighten($accent-color, 10%);
+  }
+  margin-bottom: 10px;
+}
+
+textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+//   @include resize(none); // Disable resize handle
+}

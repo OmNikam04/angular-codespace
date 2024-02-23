@@ -1,0 +1,52 @@
+/* navbar.component.css */
+
+.navbar {
+    background-color: #333; /* Background color of the navbar */
+    color: #fff; /* Text color of navbar links */
+    padding: 10px 20px; /* Padding around navbar content */
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Align content vertically */
+    justify-content: space-between; /* Space content evenly */
+  }
+  
+  .navbar-logo img {
+    height: 40px; /* Adjust logo height */
+  }
+  
+  .navbar-links {
+    list-style-type: none; /* Remove bullet points from the list */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Use flexbox for layout */
+  }
+  
+  .navbar-links li {
+    margin-right: 20px; /* Adjust spacing between navbar links */
+  }
+  
+  .navbar-links li:last-child {
+    margin-right: 0; /* Remove margin from the last navbar link */
+  }
+  
+  .navbar-links a {
+    text-decoration: none; /* Remove underline from links */
+    color: inherit; /* Inherit text color from parent */
+  }
+  
+  .navbar-actions {
+    /* Add styles for navbar actions or buttons */
+  }
+  
+  .navbtn{
+    padding: 10px;
+  }
+
+  .navbtn-main{
+    background-color: rgb(106, 106, 253);
+    color:white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+  }
